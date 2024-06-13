@@ -1213,9 +1213,10 @@ section,
   font-size: 20px;
 }
 
-.services .service-item h4 a {
-  color: var(--heading-color);
+.services .service-item h4 p {
+  color: var(--accent-color);
   transition: ease-in-out 0.3s;
+  font-size: 22px;
 }
 
 .services .service-item p {
