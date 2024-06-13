@@ -33,31 +33,36 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/logo2.png" alt="">
         <h1 class="sitename">СИЛА СПІЛЬНОТИ</h1>
       </a>
 
       <!-- Main menu -->
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Головна</a></li>
-          <li><a href="#about">Про нас</a></li>
-          <li class="dropdown"><a href="#"><span>Дрони</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="/#about">Про нас</a></li>
+          <li class="dropdown"><a href="#"><span>Звітність</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#products">Дрони</a></li>
-              <li><a href="#services">Додаткові опції</a></li>
-              <li><a href="#services">Компоненти</a></li>
+              <li><a href="/#report">Звіти</a></li>
+              <li><a href="/">Відгуки</a></li>
+              <li><a href="/">Новини</a></li>
             </ul>
           </li>
-          <li><a href="#team">Розробки</a></li>
+          <li class="dropdown"><a href=""><span>Дрони</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="/#products">Дрони</a></li>
+              <li><a href="/#services">Додаткові опції</a></li>
+              <li><a href="/">Розробки</a></li>
+              <li><a href="/">Компоненти</a></li>
+            </ul>
+          </li>
           <li><a href="#faq-2">Запитання</a></li>
           <li><a href="#contact">Контакти</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Підтримка</a>
+      <a class="btn-getstarted" href="/">Підтримка</a>
     </div>
   </header>
 
@@ -68,22 +73,81 @@
       <div class="container">
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">На Головну</a></li>
+            <li><a href="/">На Головну</a></li>
             <li class="current">10 Дюймів</li>
           </ol>
         </nav>
-        <h1>10 Дюймів</h1>
+        <h1>Камік10</h1>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Starter Section Section -->
-    <section id="starter-section" class="starter-section section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="row gy-4">
+    
+          <div class="col-lg-7">
+            <div class="portfolio-details-slider swiper">
+    
+              <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                          "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "type": "bullets",
+                          "clickable": true
+                        }
+                      }
+                    </script>
+    
+              <div class="swiper-wrapper align-items-center">
+    
+                <div class="swiper-slide">
+                  <img src="assets/img/drone/drone1.png" alt="">
+                </div>
+    
+                <div class="swiper-slide">
+                  <img src="assets/img/drone/drone2.png" alt="">
+                </div>
+    
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+    
+          <div class="col-lg-5">
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Стандартний 10-дюймовий дрон</h2>
+              <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
+                Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
+                accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
+                eius.
+              </p>
+            </div>
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Технічні характеристики</h3>
+              <ul>
+                <li><i class="bi bi-check2-circle"></i> <strong>Розмір</strong></li>
+                <li><i class="bi bi-check2-circle"></i> <strong>Розмір батареї</strong></li>
+                <li><i class="bi bi-check2-circle"></i> <strong>Дальність польоту</strong></li>
+                <li><i class="bi bi-check2-circle"></i> <strong>Вага</strong></li>
+                <li><i class="bi bi-check2-circle"></i> <strong>Час розгортання</strong></li>
+              </ul>
+            </div>
+          </div>
 
-      <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
+        </div>
       </div>
 
-    </section><!-- /Starter Section Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
