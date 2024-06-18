@@ -1245,6 +1245,9 @@ section,
   clip-path: inset(0);
 }
 
+.call-to-action.blankbg {
+  --background-color: var(--heading-color);
+}
 .call-to-action img {
   position: fixed;
   top: 0;
@@ -1273,6 +1276,7 @@ section,
   color: var(--default-color);
   font-size: 28px;
   font-weight: 700;
+  margin-bottom: 40px;
 }
 
 .call-to-action p {
